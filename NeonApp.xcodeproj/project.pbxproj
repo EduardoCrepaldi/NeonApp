@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1435D661D3A9C5400006E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1435D651D3A9C5400006E47 /* AppDelegate.swift */; };
+		E1435D681D3A9C5400006E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1435D671D3A9C5400006E47 /* ViewController.swift */; };
+		E1435D6B1D3A9C5400006E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1435D691D3A9C5400006E47 /* Main.storyboard */; };
+		E1435D6E1D3A9C5400006E47 /* NeonApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1435D6C1D3A9C5400006E47 /* NeonApp.xcdatamodeld */; };
+		E1435D701D3A9C5400006E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1435D6F1D3A9C5400006E47 /* Assets.xcassets */; };
+		E1435D731D3A9C5400006E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1435D711D3A9C5400006E47 /* LaunchScreen.storyboard */; };
+		E1435D7E1D3A9C5400006E47 /* NeonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1435D7D1D3A9C5400006E47 /* NeonAppTests.swift */; };
+		E1435D891D3A9C5400006E47 /* NeonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1435D881D3A9C5400006E47 /* NeonAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1435D7A1D3A9C5400006E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1435D5A1D3A9C5300006E47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1435D611D3A9C5400006E47;
+			remoteInfo = NeonApp;
+		};
+		E1435D851D3A9C5400006E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1435D5A1D3A9C5300006E47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1435D611D3A9C5400006E47;
+			remoteInfo = NeonApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1435D621D3A9C5400006E47 /* NeonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1435D651D3A9C5400006E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1435D671D3A9C5400006E47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1435D6A1D3A9C5400006E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1435D6D1D3A9C5400006E47 /* NeonApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeonApp.xcdatamodel; sourceTree = "<group>"; };
+		E1435D6F1D3A9C5400006E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1435D721D3A9C5400006E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1435D741D3A9C5400006E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1435D791D3A9C5400006E47 /* NeonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1435D7D1D3A9C5400006E47 /* NeonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonAppTests.swift; sourceTree = "<group>"; };
+		E1435D7F1D3A9C5400006E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1435D841D3A9C5400006E47 /* NeonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1435D881D3A9C5400006E47 /* NeonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonAppUITests.swift; sourceTree = "<group>"; };
+		E1435D8A1D3A9C5400006E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1435D5F1D3A9C5400006E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1435D761D3A9C5400006E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1435D811D3A9C5400006E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1435D591D3A9C5300006E47 = {
+			isa = PBXGroup;
+			children = (
+				E1435D641D3A9C5400006E47 /* NeonApp */,
+				E1435D7C1D3A9C5400006E47 /* NeonAppTests */,
+				E1435D871D3A9C5400006E47 /* NeonAppUITests */,
+				E1435D631D3A9C5400006E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1435D631D3A9C5400006E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1435D621D3A9C5400006E47 /* NeonApp.app */,
+				E1435D791D3A9C5400006E47 /* NeonAppTests.xctest */,
+				E1435D841D3A9C5400006E47 /* NeonAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1435D641D3A9C5400006E47 /* NeonApp */ = {
+			isa = PBXGroup;
+			children = (
+				E1435D651D3A9C5400006E47 /* AppDelegate.swift */,
+				E1435D671D3A9C5400006E47 /* ViewController.swift */,
+				E1435D691D3A9C5400006E47 /* Main.storyboard */,
+				E1435D6F1D3A9C5400006E47 /* Assets.xcassets */,
+				E1435D711D3A9C5400006E47 /* LaunchScreen.storyboard */,
+				E1435D741D3A9C5400006E47 /* Info.plist */,
+				E1435D6C1D3A9C5400006E47 /* NeonApp.xcdatamodeld */,
+			);
+			path = NeonApp;
+			sourceTree = "<group>";
+		};
+		E1435D7C1D3A9C5400006E47 /* NeonAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1435D7D1D3A9C5400006E47 /* NeonAppTests.swift */,
+				E1435D7F1D3A9C5400006E47 /* Info.plist */,
+			);
+			path = NeonAppTests;
+			sourceTree = "<group>";
+		};
+		E1435D871D3A9C5400006E47 /* NeonAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1435D881D3A9C5400006E47 /* NeonAppUITests.swift */,
+				E1435D8A1D3A9C5400006E47 /* Info.plist */,
+			);
+			path = NeonAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1435D611D3A9C5400006E47 /* NeonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1435D8D1D3A9C5400006E47 /* Build configuration list for PBXNativeTarget "NeonApp" */;
+			buildPhases = (
+				E1435D5E1D3A9C5400006E47 /* Sources */,
+				E1435D5F1D3A9C5400006E47 /* Frameworks */,
+				E1435D601D3A9C5400006E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeonApp;
+			productName = NeonApp;
+			productReference = E1435D621D3A9C5400006E47 /* NeonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1435D781D3A9C5400006E47 /* NeonAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1435D901D3A9C5400006E47 /* Build configuration list for PBXNativeTarget "NeonAppTests" */;
+			buildPhases = (
+				E1435D751D3A9C5400006E47 /* Sources */,
+				E1435D761D3A9C5400006E47 /* Frameworks */,
+				E1435D771D3A9C5400006E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1435D7B1D3A9C5400006E47 /* PBXTargetDependency */,
+			);
+			name = NeonAppTests;
+			productName = NeonAppTests;
+			productReference = E1435D791D3A9C5400006E47 /* NeonAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1435D831D3A9C5400006E47 /* NeonAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1435D931D3A9C5400006E47 /* Build configuration list for PBXNativeTarget "NeonAppUITests" */;
+			buildPhases = (
+				E1435D801D3A9C5400006E47 /* Sources */,
+				E1435D811D3A9C5400006E47 /* Frameworks */,
+				E1435D821D3A9C5400006E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1435D861D3A9C5400006E47 /* PBXTargetDependency */,
+			);
+			name = NeonAppUITests;
+			productName = NeonAppUITests;
+			productReference = E1435D841D3A9C5400006E47 /* NeonAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1435D5A1D3A9C5300006E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LECC;
+				TargetAttributes = {
+					E1435D611D3A9C5400006E47 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E1435D781D3A9C5400006E47 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E1435D611D3A9C5400006E47;
+					};
+					E1435D831D3A9C5400006E47 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E1435D611D3A9C5400006E47;
+					};
+				};
+			};
+			buildConfigurationList = E1435D5D1D3A9C5300006E47 /* Build configuration list for PBXProject "NeonApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1435D591D3A9C5300006E47;
+			productRefGroup = E1435D631D3A9C5400006E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1435D611D3A9C5400006E47 /* NeonApp */,
+				E1435D781D3A9C5400006E47 /* NeonAppTests */,
+				E1435D831D3A9C5400006E47 /* NeonAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1435D601D3A9C5400006E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1435D731D3A9C5400006E47 /* LaunchScreen.storyboard in Resources */,
+				E1435D701D3A9C5400006E47 /* Assets.xcassets in Resources */,
+				E1435D6B1D3A9C5400006E47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1435D771D3A9C5400006E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1435D821D3A9C5400006E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1435D5E1D3A9C5400006E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1435D681D3A9C5400006E47 /* ViewController.swift in Sources */,
+				E1435D661D3A9C5400006E47 /* AppDelegate.swift in Sources */,
+				E1435D6E1D3A9C5400006E47 /* NeonApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1435D751D3A9C5400006E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1435D7E1D3A9C5400006E47 /* NeonAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1435D801D3A9C5400006E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1435D891D3A9C5400006E47 /* NeonAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1435D7B1D3A9C5400006E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1435D611D3A9C5400006E47 /* NeonApp */;
+			targetProxy = E1435D7A1D3A9C5400006E47 /* PBXContainerItemProxy */;
+		};
+		E1435D861D3A9C5400006E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1435D611D3A9C5400006E47 /* NeonApp */;
+			targetProxy = E1435D851D3A9C5400006E47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1435D691D3A9C5400006E47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1435D6A1D3A9C5400006E47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1435D711D3A9C5400006E47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1435D721D3A9C5400006E47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1435D8B1D3A9C5400006E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1435D8C1D3A9C5400006E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1435D8E1D3A9C5400006E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeonApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lecc.com.NeonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1435D8F1D3A9C5400006E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeonApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lecc.com.NeonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1435D911D3A9C5400006E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeonAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lecc.com.NeonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeonApp.app/NeonApp";
+			};
+			name = Debug;
+		};
+		E1435D921D3A9C5400006E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeonAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lecc.com.NeonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeonApp.app/NeonApp";
+			};
+			name = Release;
+		};
+		E1435D941D3A9C5400006E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeonAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lecc.com.NeonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeonApp;
+			};
+			name = Debug;
+		};
+		E1435D951D3A9C5400006E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeonAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lecc.com.NeonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeonApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1435D5D1D3A9C5300006E47 /* Build configuration list for PBXProject "NeonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1435D8B1D3A9C5400006E47 /* Debug */,
+				E1435D8C1D3A9C5400006E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1435D8D1D3A9C5400006E47 /* Build configuration list for PBXNativeTarget "NeonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1435D8E1D3A9C5400006E47 /* Debug */,
+				E1435D8F1D3A9C5400006E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1435D901D3A9C5400006E47 /* Build configuration list for PBXNativeTarget "NeonAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1435D911D3A9C5400006E47 /* Debug */,
+				E1435D921D3A9C5400006E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1435D931D3A9C5400006E47 /* Build configuration list for PBXNativeTarget "NeonAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1435D941D3A9C5400006E47 /* Debug */,
+				E1435D951D3A9C5400006E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1435D6C1D3A9C5400006E47 /* NeonApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1435D6D1D3A9C5400006E47 /* NeonApp.xcdatamodel */,
+			);
+			currentVersion = E1435D6D1D3A9C5400006E47 /* NeonApp.xcdatamodel */;
+			path = NeonApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1435D5A1D3A9C5300006E47 /* Project object */;
+}
