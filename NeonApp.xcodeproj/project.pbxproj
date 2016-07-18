@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC861791D3D3A0F00C69F54 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC861781D3D3A0F00C69F54 /* DescriptionViewController.swift */; };
+		3FC8617E1D3D4CE500C69F54 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8617D1D3D4CE500C69F54 /* SearchTableViewController.swift */; };
+		3FC861801D3D4CFE00C69F54 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8617F1D3D4CFE00C69F54 /* SearchTableViewCell.swift */; };
+		3FC861821D3D52AD00C69F54 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC861811D3D52AD00C69F54 /* MainViewController.swift */; };
 		E1435D661D3A9C5400006E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1435D651D3A9C5400006E47 /* AppDelegate.swift */; };
-		E1435D681D3A9C5400006E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1435D671D3A9C5400006E47 /* ViewController.swift */; };
 		E1435D6B1D3A9C5400006E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1435D691D3A9C5400006E47 /* Main.storyboard */; };
 		E1435D6E1D3A9C5400006E47 /* NeonApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1435D6C1D3A9C5400006E47 /* NeonApp.xcdatamodeld */; };
 		E1435D701D3A9C5400006E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1435D6F1D3A9C5400006E47 /* Assets.xcassets */; };
@@ -35,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FC861781D3D3A0F00C69F54 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescriptionViewController.swift; path = ../DescriptionViewController.swift; sourceTree = "<group>"; };
+		3FC8617D1D3D4CE500C69F54 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		3FC8617F1D3D4CFE00C69F54 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		3FC861811D3D52AD00C69F54 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 		E1435D621D3A9C5400006E47 /* NeonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1435D651D3A9C5400006E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1435D671D3A9C5400006E47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1435D6A1D3A9C5400006E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1435D6D1D3A9C5400006E47 /* NeonApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeonApp.xcdatamodel; sourceTree = "<group>"; };
 		E1435D6F1D3A9C5400006E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FC861831D3D549C00C69F54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1435D711D3A9C5400006E47 /* LaunchScreen.storyboard */,
+				E1435D691D3A9C5400006E47 /* Main.storyboard */,
+				3FC8617F1D3D4CFE00C69F54 /* SearchTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3FC861841D3D54A700C69F54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FC861811D3D52AD00C69F54 /* MainViewController.swift */,
+				3FC861781D3D3A0F00C69F54 /* DescriptionViewController.swift */,
+				3FC8617D1D3D4CE500C69F54 /* SearchTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3FC861851D3D54B100C69F54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		E1435D591D3A9C5300006E47 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +132,13 @@
 		E1435D641D3A9C5400006E47 /* NeonApp */ = {
 			isa = PBXGroup;
 			children = (
-				E1435D651D3A9C5400006E47 /* AppDelegate.swift */,
-				E1435D671D3A9C5400006E47 /* ViewController.swift */,
-				E1435D691D3A9C5400006E47 /* Main.storyboard */,
-				E1435D6F1D3A9C5400006E47 /* Assets.xcassets */,
-				E1435D711D3A9C5400006E47 /* LaunchScreen.storyboard */,
 				E1435D741D3A9C5400006E47 /* Info.plist */,
+				E1435D651D3A9C5400006E47 /* AppDelegate.swift */,
+				3FC861841D3D54A700C69F54 /* Controllers */,
+				3FC861851D3D54B100C69F54 /* Model */,
 				E1435D6C1D3A9C5400006E47 /* NeonApp.xcdatamodeld */,
+				E1435D6F1D3A9C5400006E47 /* Assets.xcassets */,
+				3FC861831D3D549C00C69F54 /* Views */,
 			);
 			path = NeonApp;
 			sourceTree = "<group>";
@@ -259,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1435D681D3A9C5400006E47 /* ViewController.swift in Sources */,
+				3FC861791D3D3A0F00C69F54 /* DescriptionViewController.swift in Sources */,
 				E1435D661D3A9C5400006E47 /* AppDelegate.swift in Sources */,
 				E1435D6E1D3A9C5400006E47 /* NeonApp.xcdatamodeld in Sources */,
+				3FC861821D3D52AD00C69F54 /* MainViewController.swift in Sources */,
+				3FC8617E1D3D4CE500C69F54 /* SearchTableViewController.swift in Sources */,
+				3FC861801D3D4CFE00C69F54 /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +522,7 @@
 				E1435D8F1D3A9C5400006E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1435D901D3A9C5400006E47 /* Build configuration list for PBXNativeTarget "NeonAppTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +531,7 @@
 				E1435D921D3A9C5400006E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1435D931D3A9C5400006E47 /* Build configuration list for PBXNativeTarget "NeonAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +540,7 @@
 				E1435D951D3A9C5400006E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
